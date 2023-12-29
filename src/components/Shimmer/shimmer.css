@@ -1,0 +1,48 @@
+.Shimmers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem 8rem;
+}
+
+.cards{
+  width: 18rem;
+  /* box-shadow: 2px 1px 28px -1px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: 2px 1px 28px -1px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 2px 1px 28px -1px rgba(0, 0, 0, 0.78); */
+  border-radius: 20px;
+  margin-top: 2rem;
+  border: 1px solid lightgrey;
+  
+  /* animation: shimmer 1s infinite; */
+
+
+  /* margin-left: 1rem; */
+}
+.cards > img {
+  width: 18rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 15rem;
+  /* background: grey; */
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%); */
+  background: lightgrey;
+  /* background: linear-gradient(to right, #eeeeee 0%, #dddddd 20%, #eeeeee 40%); */
+      animation: shimmerEffect 2s infinite;
+}
+
+.cards>h2{
+    height: 1rem;
+    background-color: lightgrey;
+    width: 13rem;
+    margin: 1rem;
+}
+/* @keyframes shimmerEffect {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  } */
+
